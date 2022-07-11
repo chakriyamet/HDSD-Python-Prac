@@ -15,3 +15,4 @@ for betnum in range (firstnum, secondnum+1):
             ammount = amount + 1
             
         prime = True
+print(" The amount of prime number is:", amount)
