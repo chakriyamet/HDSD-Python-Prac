@@ -54,20 +54,19 @@ class graph:
 #Example graph has 11 nodes
 example_graph = graph(11)
 
-example_graph.add_edge(1, 2, 30)
-example_graph.add_edge(1, 4, 40)
-example_graph.add_edge(2, 3, 50)
-example_graph.add_edge(7, 4, 50)
-example_graph.add_edge(4, 5, 30)
-example_graph.add_edge(7, 5, 45)
-example_graph.add_edge(7, 6, 50)
-example_graph.add_edge(3, 5, 35)
-example_graph.add_edge(5, 3, 40)
-example_graph.add_edge(5, 6, 35)
-example_graph.add_edge(6, 5, 25)
+example_graph.add_edge(7,4,50)
+example_graph.add_edge(4,5,30)
+example_graph.add_edge(7,5,45)
+example_graph.add_edge(1,4,40)
+example_graph.add_edge(5,6,35)
+example_graph.add_edge(5,3,40)
+example_graph.add_edge(1,2,30)
+example_graph.add_edge(2,3,50)
+example_graph.add_edge(3,5,35)
+example_graph.add_edge(6,5,25)
+example_graph.add_edge(7,6,50)
 
 example_graph.prims_mst()
-
 
 
                     
