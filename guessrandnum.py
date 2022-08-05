@@ -7,3 +7,4 @@ if compnumber == usernumber:
     print("You win!")
 else:
     print("You lose!")
+#number 1 and 100 also included. 
